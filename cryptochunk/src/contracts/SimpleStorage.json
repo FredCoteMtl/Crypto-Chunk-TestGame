@@ -1,0 +1,141 @@
+{
+    "contractName":"SimpleStorage",
+    "abi":[
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "i",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getColWithIndex",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getChunkSize",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "resetChunk",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "loc",
+                    "type": "bytes"
+                }
+            ],
+            "name": "getColWithLoc",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "loc",
+                    "type": "bytes"
+                },
+                {
+                    "name": "col",
+                    "type": "bytes"
+                }
+            ],
+            "name": "set",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "size",
+                    "type": "uint256"
+                },
+                {
+                    "name": "locs",
+                    "type": "bytes"
+                },
+                {
+                    "name": "cols",
+                    "type": "bytes"
+                }
+            ],
+            "name": "setProgress",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "i",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getLoc",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+     "networks": {
+        "97": {
+          "events": {},
+          "links": {},
+          "address": "0xEBF95bB6610B41cCddFC07da0A8C7F4a63AdDf3A",
+          "transactionHash": "0x1b59aeac810cc5f40cb404126ac55601be1ff2cd83b65dda5953bd660708b38e"
+        }}
+    }
+    
+    
+    
