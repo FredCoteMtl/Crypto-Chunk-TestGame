@@ -1,0 +1,17 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+extraMetadata:
+  main: build/electron.js
+asar: true
+appId: com.electron.babylon
+copyright: MIT
+productName: babylon-react-electron-app
+win:
+  icon: public/icon.png
+  publisherName: Todor Imreorov
+extends: react-cra
+electronVersion: 5.0.13
