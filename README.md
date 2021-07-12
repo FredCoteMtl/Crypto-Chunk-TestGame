@@ -1,6 +1,7 @@
 # |   CRYPTO CHUNK    |
 --------------------------
 ### Welcome to this sample project!
+visit the app: <https://cryptochunk.netlify.app/>
 
 The goal of this project was to test some ways to store a bunch of information directly on the blockchain instead of using a p2p storage.
 
