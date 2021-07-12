@@ -225,7 +225,7 @@ const HomePage = () => {
                     <p>- Move the view around using the arrow keys and the mouse</p>
                 </Controls>
                 <Menu>
-                    <Button onClick={connectToMetaMask}>Connect Metamask</Button>
+                    <Button onClick={connectToMetaMask}>Connect Bsc Testnet</Button>
                     <Button onClick={loadChunk}>Load Chunk</Button>
                     <Button onClick={saveBlock}>save block</Button>
                     <Button onClick={saveProgress}>save progress</Button>
